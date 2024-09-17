@@ -1,0 +1,34 @@
+section.info-section
+  .wrapper
+    .info-section__container
+      img.info-section__img-1(src="images/info-section-img-1.png" loading="lazy" width="1176" height="1123" alt="image")
+      img.info-section__img-2(src="images/info-section-img-2.png" loading="lazy" width="1029" height="942" alt="image")
+      h2.info-section__title.font-w-black.font-s-40.text-up
+        | Узнайте больше обо всех тонкостях работы
+      .info-section__sub-title.font-w-regular.font-s-22.text-up.color-black
+        | Оставьте заявку, и мы расскажем вам:
+      .swiper-info
+        .info-section__cards.swiper-wrapper
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Как избежать ошибок <br class="no-br"> на старте
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Как начать с <br class="no-br"> минимальными <br class="no-br"> вложениями
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Как заключать <br class="no-br"> большое количество <br class="no-br"> договоров
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Как находить и <br class="no-br"> удерживать клиентов
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Какие рекламные <br class="no-br"> форматы пользуются <br class="no-br"> наибольшим спросом
+          .info-section__card-wrapper.swiper-slide
+            .info-section__card
+              .font-w-regular.font-s-24 Как ежегодно <br class="no-br"> удваивать доход
+        .info-pagination.swiper-progress-info
+      form.info-section__form(data-feedback-form)
+        input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn.btn--secondary(type="submit") Оставить заявку

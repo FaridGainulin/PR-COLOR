@@ -1,0 +1,37 @@
+section.invest-section
+  .wrapper
+    .invest-section__container
+      .invest-section__arc
+      h2.invest-section__title.font-w-black.font-s-40.text-up
+        | Форматы работы и затраты на открытие
+      .invest-section__sub-title.font-w-regular.font-s-22.color-black
+        | Выберите размер вашего города, чтобы узнать величину паушального взноса и размер инвестиций в 1 клик!
+      .swiper-invest
+        .invest-section__cards.swiper-wrapper
+          .invest-section__card-wrapper.swiper-slide
+            .invest-section__card
+              .font-w-black.font-s-30.text-up Формат 1: <br> Начальный
+              .invest-section__card-sub-title.font-w-regular.font-s-22.text-up.color-sea Без сотрудников <br> и аренды помещения
+              img.invest-section__card-img(src="images/invest-section-card-img.png" loading="lazy" width="1372" height="848" alt="icon")
+              .font-w-regular.font-s-22.color-black 
+                | Скачайте подробное описание формата 
+                br
+                | и финансовую модель
+              form.invest-section__form(data-feedback-form)
+                input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+                input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+                button.btn(type="submit") Скачать
+          .invest-section__card-wrapper.swiper-slide
+            .invest-section__card
+              .font-w-black.font-s-30.text-up Формат 2: <br> Средний
+              .invest-section__card-sub-title.font-w-regular.font-s-22.text-up.color-sea С офисом <br> и отделом продаж
+              img.invest-section__card-img(src="images/invest-section-card-img.png" loading="lazy" width="1372" height="848" alt="icon")
+              .font-w-regular.font-s-22.color-black 
+                | Скачайте подробное описание формата 
+                br.no-br
+                | и финансовую модель
+              form.invest-section__form(data-feedback-form)
+                input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+                input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+                button.btn(type="submit") Скачать
+        .invest-pagination.swiper-progress-invest

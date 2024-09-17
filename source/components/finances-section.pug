@@ -1,0 +1,67 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="1259" height="1293" alt="image")
+      h2.finances-section__title.font-w-black.font-s-40.text-up
+        | Какую прибыль может приносить 
+        br.no-br
+        | рекламное агентство
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 40 
+                span.font-s-26.text-up дней
+              .font-w-regular.font-s-24 Занимает открытие <br> бизнеса
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 53%
+              .font-w-regular.font-s-24 Рентабельность <br> по чистой прибыли
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 755 000 
+                span.font-w-m-bold.font-s-36 ₽
+              .font-w-regular.font-s-24 Размер ежемесячной <br> выручки
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 6 
+                span.font-s-26.text-up месяцев
+              .font-w-regular.font-s-24 Срок <br> окупаемости
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 1 540 000 
+                span.font-w-m-bold.font-s-36 ₽
+              .font-w-regular.font-s-24 Размер <br> вложений
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              .font-w-black.color-sea
+                span.font-s-36 400 000 
+                span.font-w-m-bold.font-s-36 ₽
+              .font-w-regular.font-s-24 Размер ежемесячной <br> прибыли
+        .finances-pagination.swiper-progress-finances
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="806" height="714" alt="image")
+        .finances-section__bottom-text
+          .font-w-bold.font-s-24.text-up
+            | Хотите получить 
+            br.no-br
+            span.color-sea детальные расчеты 
+            br.no-br
+            | для вашего города и 
+            br.no-br
+            | под ваш бюджет?
+          .font-w-regular.font-s-20
+            | Скачайте 
+            span.color-sea финансовую модель 
+            br.no-br
+            | франшизы 
+            span.color-sea «PR COLOR»
+        form.finances-section__form(data-feedback-form)
+          input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn.btn--secondary(type="submit") скачать

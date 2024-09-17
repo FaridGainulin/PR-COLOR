@@ -1,0 +1,133 @@
+.start-section
+  background-image: url('../images/start-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #eeecfa
+
+  &__container
+    position relative
+    padding 40px 0 50px 0
+    +above($breakpoints.sm)
+      padding 60px 0 60px 0
+    +above($breakpoints.md)
+      padding 90px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 127px 0 139px 0
+
+  &__img
+    position: absolute;
+    width: 102px;
+    height: auto;
+    bottom: 29px;
+    left: -65px;
+    transform: rotate(-176deg)
+    +above($breakpoints.sm)
+      transform: none
+      width: 209px;
+      bottom: 0;
+      left: -161px;
+    +above($breakpoints.md)
+      width: 309px;
+      bottom: 0;
+      left: -240px;
+    +above($breakpoints.xxl)
+      width 409px
+      bottom: 0
+      left: -373px
+
+  &__title
+    padding 0 0 35px 0
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+      padding 0 0 20px 0
+    +above($breakpoints.md)
+      padding 0 0 20px 0
+    +above($breakpoints.xxl)
+      padding 0 0 23px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: column
+      gap: 5px
+    +above($breakpoints.md)
+      gap: 8px
+
+  &__card
+    width 290px !important
+    display: flex
+    align-items: center
+    gap: 10px
+    +above($breakpoints.sm)
+      width 590px !important
+    +above($breakpoints.md)
+      gap: 17px
+
+  &__card-icon
+    width 20px
+    height: 20px
+    +above($breakpoints.sm)
+      width 30px
+      height: 30px
+    +above($breakpoints.md)
+      width 40px
+      height: 40px
+    +above($breakpoints.xxl)
+      width 45px
+      height: 45px
+
+  &__bottom
+    position relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    text-align: center
+    +above($breakpoints.sm)
+      margin-top 35px
+      text-align: end
+      flex-direction: row
+      justify-content flex-end
+    +above($breakpoints.md)
+      margin-top 40px
+      gap: 15px
+    +above($breakpoints.xxl)
+      margin-top 47px
+      gap: 21px
+
+  &__bottom-img
+    position: absolute
+    width: 93px;
+    height: auto;
+    right: -22px;
+    bottom: 15px;
+    +above($breakpoints.sm)
+      width: 320px;
+      right: 0;
+      bottom: 53px;
+    +above($breakpoints.md)
+      width: 490px;
+      right: 0;
+      bottom: 36px;
+    +above($breakpoints.xxl)
+      width: 590px;
+      right: 4px;
+      bottom: 36px;
+
+  &__bottom-button
+    background-color $color-sea
+    border-radius: 0 50px 50px 0
+    padding 20px 70px 20px 10px
+    width 308px
+    +above($breakpoints.sm)
+      padding: 40px 210px 40px 20px;
+      width: 476px;
+      border-radius: 0 390px 390px 0
+    +above($breakpoints.md)
+      padding: 50px 350px 50px 25px;
+      width: 650px;
+    +above($breakpoints.xxl)
+      width 780px
+      padding 65px 443px 64px 27px

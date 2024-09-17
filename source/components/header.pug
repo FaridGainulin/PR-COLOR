@@ -1,0 +1,12 @@
+header.header
+  .header__container
+    .header__block
+      .header__logo-wrapper
+        img.header__logo(src="images/header-logo.png" loading="lazy" width="519" height="321" alt="logo")
+      .header__brand-title.font-w-medium.font-s-16 PR COLOR <br> Франшиза рекламного <br> агентства
+    .header__connection
+      a(href="tel:+70000000000")
+        img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="19" height="19" alt="icon")
+      include ../components/phone-number.pug
+
+      //- .header__call-me.font-s-12(data-remodal-target="modal-form-call-me") Обратный звонок
